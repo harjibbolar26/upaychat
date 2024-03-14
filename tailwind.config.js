@@ -26,6 +26,9 @@ module.exports = {
         // 'pattern': "url('./upaychat.png')",
         "hero-bg": "url('/hero-bg.png')",
       },
+      screens: {
+        "xs": "375px",
+      }
     },
   },
   plugins: [],

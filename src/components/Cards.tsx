@@ -49,7 +49,7 @@ const Cards = ({ card }: CardPropsProps) => {
             />
             <p className="text-[14px]">UpayChat Card</p>
           </div>
-          <div className="flex flex-col justify-center items-center gap-2">
+          <div className="flex flex-col justify-center items-center gap-2 md">
             <img
               src="./upay.png"
               width={20}
@@ -63,7 +63,7 @@ const Cards = ({ card }: CardPropsProps) => {
         <div className="card__btn-container">
           <CustomButton
             title="View More"
-            containerStyles="w-[300%] mx-auto py-[16px] rounded-full bg-[#4EE567]"
+            containerStyles="w-[250%] max-md:w-[200%] max-xs:w-[150%] mx-auto py-[16px] rounded-full bg-[#4EE567]"
             textStyles="text-white text-[14px] leading-[17px] font-bold"
             rightIcon="./right-arrow.svg"
             handleClick={() => setIsOpen(true)}
