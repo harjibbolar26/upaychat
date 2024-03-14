@@ -1,46 +1,21 @@
-# Getting Started with Create React App
+This Card Services for [UpayChat](https://upaychat.com) was built with [Reactjs](https://react.dev), [Typescript](https://typescriptlang.org), [HeadlessUI](https://headlessui.com) and [Tailwind Css](https://tailwindcss.com/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
 
-## Available Scripts
+The projects showcases 6 different types of card services UpayChat can possibly render as a financial protocol.
 
-In the project directory, you can run:
+They include Debit Card, Credit Card, Prepaid Card, Travel Rewards Card, Student Credit Card and Business Credit Card.
 
-### `npm start`
+Everyone who would possibly use the internet and come across our services at UpayChat through our brilliantly implemented Optimization in the Search Engine was factored in when decidiing the type of card service to be offered.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+From the elite business men and women, to the petty-traders, to Students at various levels, to HNIs, and even to middle-class citizens - everyone would be able to benefit from the perks of our card services.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The project also has a feature to recommend a card type fro you just incase you don't know which one should you should opt for. Only few data are needed and you will be given the options to select any of two cards and opt for them.
 
-### `npm test`
+## Tecnologies used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+-- [React](https://ibb.co/mCqm6jX) 
+-- [Taiwind](https://ibb.co/y0LKnpJ)
+-- [Typescript](https://ibb.co/CWT9PqS)
+-- [headlessUI](https://ibb.co/Hn0Frv7)
+-- [React icons](https://react-icons.github.io/react-icons/)

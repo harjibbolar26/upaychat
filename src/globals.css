@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Layarbahtera-Doomsday-Bold';
+  src: url('./fonts/LayarBahtera-Doomsday-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Layarbahtera-Doomsday-Light';
+  src: url('./fonts/LayarBahtera-Doomsday-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Layarbahtera-Doomsday';
+  src: url('./fonts/LayarBahtera-Doomsday.ttf') format('truetype');
+}
+
+/* body {
+  font-family: 'Layarbahtera-Doomsday-Bold', sans-serif;
+
+} */
+
+.card {
+  @apply flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl;
+}
+
+.card__content {
+  @apply w-full  justify-between items-start gap-2;
+}
+
+.card__content-title {
+  @apply text-[22px] leading-[26px] font-bold capitalize;
+}
+
+.card-wrapper {
+  @apply grid  xl:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full gap-8 pt-14;
+}
+
+.max-width {
+  /* @apply max-w-[1440px] mx-auto; */
+}
+
+.card__btn-container {
+  @apply hidden group-hover:flex absolute w-full bottom-0;
+}
+.custom-btn {
+  @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none hover:outline hover:outline-[#4EE567] hover:text-[#4EE567] font-layarBahteralight;
+}
+
+.credit-score__options {
+  @apply absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm;
+}
+
+.credit-score__btn {
+  @apply relative w-full min-w-[127px] flex justify-between items-center cursor-default rounded-lg bg-white py-2 px-3 text-left shadow-md sm:text-sm border;
+}
